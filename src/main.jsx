@@ -11,7 +11,7 @@ import {
 import Home from "./Home/Home.jsx";
 import Note from "./Note/Note.jsx";
 import Past from "./PastPaper/Past.jsx";
-import Aboutus from "./AboutUS/About.jsx";
+import AboutUs from "./AboutUS/About.jsx";
 import Syllabus from "./Syllabus/Syllabus.jsx";
 import List from './Components/List.jsx' 
 import Pdf from "./Components/Pdf.jsx";
@@ -22,7 +22,7 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
       <Route index element={<Home />} />
-      <Route path="aboutus" element={<Aboutus />} />
+      <Route path="aboutus" element={<AboutUs />} />
       <Route path="Note" element={<Note />} />
       <Route path="pastpapers" element={<Past />} />
       <Route path="syllabus" element={<Syllabus />} />
