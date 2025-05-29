@@ -11,7 +11,7 @@ const Search = () => {
     useEffect(() => {
         const getData = async () => {
             try {
-                const response = await axios.get("https://newrepo-backend.vercel.app/search");
+                const response = await axios.get("https://note-backend-tau.vercel.app/search");
                 setData(response.data);
                 if (data) {
                     performSearch(data, response.data);
