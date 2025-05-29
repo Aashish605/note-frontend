@@ -13,7 +13,7 @@ import Note from "./Note/Note.jsx";
 import Past from "./PastPaper/Past.jsx";
 import Aboutus from "./AboutUS/About.jsx";
 import Syllabus from "./Syllabus/Syllabus.jsx";
-import List from './Components/List.jsx'
+import List from './Components/List.jsx' 
 import Pdf from "./Components/Pdf.jsx";
 // import Serach from './Components/Serach.jsx';
 // import Error from './Components/Error.jsx';
