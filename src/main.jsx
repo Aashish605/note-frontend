@@ -11,7 +11,7 @@ import {
 import Home from "./Home/Home.jsx";
 import Note from "./Note/Note.jsx";
 import Past from "./PastPaper/Past.jsx";
-import AboutUs from "./AboutUS/About.jsx";
+import AboutUs from "./AboutUs/About.jsx";
 import Syllabus from "./Syllabus/Syllabus.jsx";
 import List from './Components/List.jsx' 
 import Pdf from "./Components/Pdf.jsx";
